@@ -1,0 +1,36 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: life_rpg_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: life_rpg
+      MYSQL_USER: life
+      MYSQL_PASSWORD: life
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-init:/docker-entrypoint-initdb.d
+
+  adminer:
+    image: adminer
+    container_name: life_rpg_adminer
+    restart: always
+    ports:
+      - "8080:8080"
+
+  importer:
+    build: ./importer
+    container_name: life_rpg_importer
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: life
+      DB_PASSWORD: life
+      DB_NAME: life_rpg
+      SHEET_URL_QUESTS: "https://docs.google.com/spreadsheets/d/1F-VrL8NMLPpH3XhXkVfoM2fe470tk5L3-6Yr27s2P9k/export?format=csv&gid=831681485"
+    # le script se lance, importe, puis le conteneur s'arrête
+    command: [ "python", "import_from_sheets.py" ]

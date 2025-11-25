@@ -1,0 +1,33 @@
+Nom de l'Arc,Arc,Fréquence,Quete,XP / Quête,Intensité,,Répétition,Statut,Type Barème
+Arc II,🩻 Santé,Journalière,Boire 2L d'eau.,125,1,2,2,TRUE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Faire la séance jambes,70,2,5,5,TRUE,5
+Arc V,💻 Projet,Hebdomadaire,Avancer sur le site internet,125,2,0,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Faire la séance dos épaule,50,1,,6,FALSE,6
+Arc IV,📚 Études,Unique,faire tout les exos de manquant d'electronique,1400,2,,3,FALSE,1
+Arc II,🩻 Santé,Hebdomadaire,Une séance course sprint.,125,2,0,1,FALSE,1
+Arc V,💻 Projet,Hebdomadaire,Faire l'automatisation du Neosystems sur notion,100,1,,1,FALSE,1
+Arc IV,📚 Études,Hebdomadaire,Faire 3 exos sans aide.,125,2,0,1,FALSE,1
+Arc V,💻 Projet,Mensuelle,Poster un update (vidéo/devlog).,600,3,1,1,TRUE,1
+Arc V,💻 Projet,Hebdomadaire,Avancer sur la gamboy,125,2,,1,FALSE,1
+Arc II,🩻 Santé,Hebdomadaire,Faire le ménage,100,1,,1,FALSE,1
+Arc VI,🎸 Musique,Journalière,Faire 15 min de guitare,125,1,,1,FALSE,1
+Arc II,🩻 Santé,Journalière,Se coucher avant minuit,125,1,,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Faire la séance bras,100,1,,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Faire la séance pecs/triceps,100,1,,1,FALSE,1
+Arc VII,👩🏻‍🤝‍👨🏾 Social,Unique,Refaire la garde robe,2100,3,,1,FALSE,1
+Arc VII,👩🏻‍🤝‍👨🏾 Social,Hebdomadaire,Sortir avec des amis,125,2,,1,FALSE,1
+Arc VI,🎸 Musique,Hebdomadaire,Apprendre un bout de solo,150,3,,1,FALSE,1
+Arc V,💻 Projet,Unique,Apprendre un nouveau langage de programation,2100,3,,1,FALSE,1
+Arc IV,📚 Études,Journalière,Relire un cours 15 min.,125,1,,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,2 séances de mobilité/étirements.,100,1,,1,FALSE,1
+Arc II,🩻 Santé,Journalière,Préparer 3 repas équilibrés.,313,2,0,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Aller au KickBoxing,125,2,,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Aller à la Boxe,125,2,,1,FALSE,1
+Arc III,🏋️ Sport5454,Hebdomadaire,Aller au Taekuendo,125,2,,1,FALSE,1
+Arc III,🏋️ Sport5454,Journalière,Faire les étirement ,125,1,,1,FALSE,1
+Arc III,🏋️ Sport5454,Journalière,Faire le ShadowBoxing,125,1,,1,FALSE,1
+Arc II,🩻 Santé,Unique,rgesrgq,900,1,,1,,1
+Arc VII,👩🏻‍🤝‍👨🏾 Social,Unique,rgpioagj,2100,3,,1,FALSE,1
+Arc VI,🎸 Musique,Hebdomadaire,khjkhj,105,3,0,3,FALSE,3
+Arc II,🩻 Santé,Hebdomadaire,test2,105,3,0,3,FALSE,3
+Arc II,🩻 Santé,Journalière,journal test,313,2,0,1,FALSE,1
